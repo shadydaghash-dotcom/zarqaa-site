@@ -16,7 +16,7 @@
 ## Key facts
 
 - Name: Zarqaa (Arabic: زرقاء)
-- Tagline: أرقامك على يقين ("Your numbers, with certainty")
+- Tagline: ترى ما لا تُظهره المنصات ("Sees what the platforms don't show")
 - Market: Saudi Arabia
 - Store integrations: Salla, Zid
 - Ad integrations: Meta, Google, Snapchat, TikTok
