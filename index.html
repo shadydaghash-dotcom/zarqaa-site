@@ -6,7 +6,7 @@
 
   <!-- Core SEO: title and description read by search engines and AI assistants -->
   <title>زرقاء | المبيعات الحقيقية وصافي الربح لكل منصة إعلانية، قريبًا</title>
-  <meta name="description" content="زرقاء منصة للمتاجر الإلكترونية تربط متجرك على سلة وزد بحساباتك الإعلانية في Meta وGoogle وSnapchat وTikTok، لتعرض لك المبيعات الحقيقية وصافي الربح لكل منصة ولكل إعلان في مكان واحد. قريبًا.">
+  <meta name="description" content="زرقاء منصة للمتاجر الإلكترونية تربط متجرك على سلة أو زد بحساباتك الإعلانية في Meta وGoogle وSnapchat وTikTok، لتعرض لك المبيعات الحقيقية وصافي الربح لكل منصة ولكل إعلان في مكان واحد. قريبًا.">
   <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large">
   <meta name="theme-color" content="#1442F5">
   <link rel="canonical" href="https://zarqaa.app/">
@@ -18,10 +18,10 @@
   <meta property="og:locale" content="ar_SA">
   <meta property="og:url" content="https://zarqaa.app/">
   <meta property="og:title" content="زرقاء: ترى ما لا تُظهره المنصات">
-  <meta property="og:description" content="المبيعات الحقيقية وصافي الربح لكل منصة إعلانية ولكل إعلان، لمتاجر سلة وزد. قريبًا.">
+  <meta property="og:description" content="المبيعات الحقيقية وصافي الربح لكل منصة إعلانية ولكل إعلان، لمتاجر سلة أو زد. قريبًا.">
   <meta name="twitter:card" content="summary">
   <meta name="twitter:title" content="زرقاء: ترى ما لا تُظهره المنصات">
-  <meta name="twitter:description" content="المبيعات الحقيقية وصافي الربح لكل منصة إعلانية ولكل إعلان، لمتاجر سلة وزد. قريبًا.">
+  <meta name="twitter:description" content="المبيعات الحقيقية وصافي الربح لكل منصة إعلانية ولكل إعلان، لمتاجر سلة أو زد. قريبًا.">
 
   <!-- Temporary favicon until the logo is ready -->
   <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='14' fill='%230A0A0A'/%3E%3Ccircle cx='32' cy='32' r='12' fill='%231442F5'/%3E%3C/svg%3E">
@@ -178,10 +178,14 @@
       text-wrap: balance;
     }
 
+    /* Each sentence balances on its own */
+    .pitch h2 span { display: block; }
+
     .evidence {
       margin-top: 40px;
       display: grid;
       grid-template-columns: minmax(0, 1fr) 360px;
+      grid-template-rows: auto 1fr;
       grid-template-areas:
         "lead ledger"
         "integrations ledger";
@@ -248,7 +252,7 @@
 
     .integrations {
       grid-area: integrations;
-      align-self: end;
+      align-self: start;
     }
 
     .integrations div {
@@ -261,6 +265,7 @@
     .integrations dd {
       font-weight: 500;
       color: var(--black);
+      text-wrap: balance;
     }
 
     .features {
@@ -341,6 +346,7 @@
 
       .evidence {
         grid-template-columns: minmax(0, 1fr);
+        grid-template-rows: none;
         grid-template-areas:
           "lead"
           "ledger"
@@ -387,7 +393,7 @@
 
   <main class="wrap">
     <section class="pitch" aria-labelledby="pitch-title">
-      <h2 id="pitch-title">كل منصة إعلانية تنسب البيعة لنفسها<br>زرقاء تكشف لك الحقيقة</h2>
+      <h2 id="pitch-title"><span>كل منصة إعلانية تنسب البيعة لنفسها</span> <span>زرقاء تُريك الرقم الحقيقي</span></h2>
 
       <div class="evidence">
         <p class="lead">تربط زرقاء متجرك على سلة أو زد بحساباتك الإعلانية، وتعرض لك المبيعات الحقيقية وصافي الربح لكل منصة ولكل إعلان. كل أرقامك في مكان واحد، لتعرف بنظرة واحدة أين يذهب إنفاقك ومن أين يأتي ربحك.</p>
@@ -409,8 +415,8 @@
         </figure>
 
         <dl class="integrations" aria-label="المنصات المدعومة">
-          <div><dt>المتاجر:</dt><dd>سلة، زد</dd></div>
-          <div><dt>الإعلانات:</dt><dd><bdi lang="en">Meta</bdi>، <bdi lang="en">Google</bdi>، <bdi lang="en">Snapchat</bdi>، <bdi lang="en">TikTok</bdi></dd></div>
+          <div><dt>منصات المتاجر:</dt><dd>سلة، زد</dd></div>
+          <div><dt>منصات الإعلانات:</dt><dd><bdi lang="en">Meta</bdi>، <bdi lang="en">Google</bdi>، <bdi lang="en">Snapchat</bdi>، <bdi lang="en">TikTok</bdi></dd></div>
         </dl>
       </div>
 
