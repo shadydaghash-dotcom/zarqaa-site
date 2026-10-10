@@ -71,12 +71,12 @@
         "applicationSubCategory": "E-commerce Analytics and Profitability",
         "operatingSystem": "Web",
         "inLanguage": "ar",
-        "description": "منصة تربط متاجر سلة وزد بحسابات Meta وGoogle وSnapchat وTikTok الإعلانية، وتعرض المبيعات الحقيقية لكل منصة دون تكرار، إذ تنسب كل منصة البيعة نفسها لنفسها. كما تعرض الإنفاق والمبيعات وأداء الحملات اليومي في شاشة واحدة، وصافي الربح لكل حملة ولكل إعلان.",
+        "description": "منصة تربط متاجر سلة أو زد بحسابات Meta وGoogle وSnapchat وTikTok الإعلانية، وتعرض المبيعات الحقيقية لكل منصة دون تكرار، إذ تنسب كل منصة البيعة نفسها لنفسها. كما تعرض الإنفاق والمبيعات وأداء الحملات اليومي في شاشة واحدة، وصافي الربح لكل حملة ولكل إعلان.",
         "featureList": [
           "المبيعات الحقيقية لكل منصة إعلانية دون أرقام مكررة",
           "الإنفاق والمبيعات وأداء الحملات اليومي في شاشة واحدة",
           "صافي الربح الإجمالي ولكل منصة ولكل إعلان",
-          "التكامل مع سلة وزد",
+          "التكامل مع سلة أو زد",
           "التكامل مع Meta وGoogle وSnapchat وTikTok"
         ],
         "audience": { "@type": "BusinessAudience", "audienceType": "أصحاب المتاجر الإلكترونية" },
@@ -260,7 +260,10 @@
       gap: 8px;
     }
 
-    .integrations dt { color: var(--muted); }
+    .integrations dt {
+      color: var(--muted);
+      white-space: nowrap;
+    }
 
     .integrations dd {
       font-weight: 500;
@@ -374,6 +377,11 @@
         font-size: var(--fs-body);
         line-height: 1.8;
       }
+
+      /* Label on its own line, values under it */
+      .integrations div { display: block; }
+
+      .integrations div + div { margin-top: 8px; }
     }
 
     @media (max-width: 360px) {
