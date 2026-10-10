@@ -1,0 +1,33 @@
+# Zarqaa (زرقاء)
+
+> Zarqaa is an e-commerce profitability platform for online stores in Saudi Arabia. It connects stores on Salla and Zid with their Meta, Google, Snapchat and TikTok ad accounts, and shows the true sales and net profit per ad platform and per ad. Status: in development, launching soon.
+
+## The problem it solves
+
+- Each ad platform claims credit for the same sale, so platform-reported ROAS is inflated (for example, a platform reports 4 ROAS while the real figure is closer to 2.25).
+- Store owners have to open several dashboards to see today's spend, sales and campaign performance.
+
+## What Zarqaa does
+
+- True sales per ad platform, de-duplicated across Meta, Google, Snapchat and TikTok.
+- Today's spend, sales and campaign performance in one screen.
+- Net profit overall, per platform and per ad.
+
+## Key facts
+
+- Name: Zarqaa (Arabic: زرقاء)
+- Tagline: أرقامك على يقين ("Your numbers, with certainty")
+- Market: Saudi Arabia
+- Store integrations: Salla, Zid
+- Ad integrations: Meta, Google, Snapchat, TikTok
+- Language: Arabic
+- Status: Coming soon
+- Email: apps@zarqaa.app
+
+## Contact
+
+- Email: apps@zarqaa.app
+
+## Links
+
+- [Home](https://zarqaa.app/): Coming soon page (Arabic)
